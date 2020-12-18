@@ -1,0 +1,29 @@
+.NavBar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color:  #4ea973;
+  color: white;
+}
+.NavLinks{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  font-weight: 700;
+}
+.NavLink{
+  padding-right: 2em;
+}
+.Brand{
+  display: flex;
+  margin: 0 0 0 0.5em;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+}
+nav a:hover{
+  color: #a6fb9cd1
+}

@@ -1,0 +1,66 @@
+.PatientCard {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 1em;
+  box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+  width: 90%;
+  margin: 0 auto;
+  padding: 2em 1em 1em 1em;
+}
+
+.PatientPhotoContainer {
+  width: 20%;
+  height: 11em;
+  margin-right: 3em;
+}
+
+.PatientPhoto {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.PatientInfoContainer {
+  font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.PatientInfo {
+  padding: 0.5em;
+}
+
+.FadedLine {
+  height: 2px;
+  width: 100%;
+  background-image: linear-gradient(to right, white -20%, #bfbfbf 60%, white 110%);
+  margin-bottom: 1em;
+}
+
+.PatientInfoKey{
+  font-weight: 700;
+  margin-right: 0.5em;
+}
+
+.PatientInfoValue {
+  color: #5d5d5d;
+}
+
+@media (max-width: 600px) {
+  .PatientCard {
+    flex-direction: column;
+    padding: 1em;
+    width: 80%;
+    margin-bottom: 1em;
+  }
+  .PatientPhotoContainer {
+    margin: 0 auto;
+    width: 10em;
+    height: 10em;
+  }
+  .PatientInfoContainer {
+    width: 100%;
+    margin-top: 1em;
+  }
+}
